@@ -1,5 +1,6 @@
 var http = require('http');
 var url = require('url')
+var port = process.env.PORT || 8080;
 
 // http://localhost:8080/get-sum?a=11&b=120
 function listener(req, res){
@@ -19,7 +20,7 @@ function listener(req, res){
   res.end();
 }
 
-http.createServer(listener).listen(80);
+http.createServer(listener).listen(port);
 
 function sum(a, b){
   return parseInt(a) + parseInt(b);
