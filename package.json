@@ -4,5 +4,8 @@
     "version": "1.0.0",
     "engines": {
       "node": "11.12.0"
+    },
+    "scripts": {
+      "start": "node myfirstnodejs.js"
     }
   }
