@@ -12,7 +12,10 @@ function listener(req, res){
     var q = url.parse(req.url, true).query;
     res.write(q.a + " + " + q.b + " = " + sum(q.a, q.b));
   }
-  
+  else{
+    res.write("browse /get-sum");
+  }
+
   res.end();
 }
 
