@@ -1,0 +1,8 @@
+{
+    "name": "isayenko-nodejs-calculator",
+    "description": "a calc app",
+    "version": "1.0.0",
+    "engines": {
+      "node": "11.12.0"
+    }
+  }
